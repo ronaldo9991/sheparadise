@@ -1,0 +1,432 @@
+Build a premium, production-ready fashion website for a women’s clothing brand called “She Paradise”.
+
+IMPORTANT:
+- The website must feel luxurious, feminine, elegant, modern, and conversion-focused.
+- Use a visually refined layout based on the GOLDEN RATIO everywhere possible.
+- The logo is ALREADY PROVIDED. Do not redesign the logo. Use the existing logo properly in the navbar, footer, favicon area if possible, splash/loading states, and branding sections.
+- The site must be polished enough to look like a real premium clothing brand in Coimbatore, not a template.
+- The final result must be fully responsive for mobile, tablet, and desktop.
+- The code must be complete and runnable inside Replit with clean structure.
+
+BRAND NAME:
+She Paradise
+
+BUSINESS TYPE:
+Women’s Clothing Brand / Boutique
+
+PRODUCT CATEGORIES:
+- Kurthi
+- Chudithar Set
+- T-Shirt
+- Shirt
+- Saree
+- Western Tops
+
+BUSINESS ADDRESS:
+She Paradise,
+JESUS SAVES Complex,
+89C/6, Vellakinar Road,
+Near Thudiyalur RTO,
+Thudiyalur,
+Coimbatore - 641034
+
+PHONE / WHATSAPP:
+9600683219
+
+WHATSAPP REQUIREMENT:
+Add a floating WhatsApp button fixed at the bottom-right corner on all pages.
+Use this exact WhatsApp link:
+https://wa.me/919600683219
+The floating button must:
+- be always visible
+- have hover animation
+- pulse subtly every few seconds
+- open WhatsApp chat in a new tab
+- look premium, not cheap
+
+==================================================
+PRIMARY OBJECTIVE
+==================================================
+Create a high-end brand website that:
+1. introduces She Paradise as a premium women’s fashion store
+2. showcases collections beautifully
+3. displays at least 20 high-quality fashion/product/brand images
+4. makes the store feel aspirational and trustworthy
+5. drives customers to WhatsApp enquiry/order flow
+6. highlights the store address clearly
+7. uses cinematic motion and premium micro-interactions
+8. uses golden-ratio-based layout, spacing, image sizing, and typography proportions
+
+==================================================
+DESIGN DIRECTION
+==================================================
+Design style:
+- premium boutique fashion brand
+- elegant, feminine, stylish, minimal, luxurious
+- modern editorial look
+- high-end e-commerce aesthetic
+- clean whitespace
+- soft luxury feel
+- strong visual storytelling
+
+Visual inspiration:
+- premium fashion landing pages
+- boutique saree/ethnic + western fusion brand aesthetics
+- editorial layouts
+- luxury catalog feel
+- polished card layouts
+- sophisticated product presentation
+
+DO NOT make it:
+- childish
+- overly colorful
+- crowded
+- generic
+- cheap-looking
+- like a default Bootstrap template
+- like a random local shop flyer
+
+==================================================
+GOLDEN RATIO REQUIREMENTS
+==================================================
+Apply the golden ratio (approximately 1 : 1.618) throughout the design with precision.
+
+Use golden ratio for:
+- hero section height and content distribution
+- left/right split layouts
+- headline and body text scale
+- section spacing
+- card proportions
+- image crop proportions
+- button sizing relationships
+- container widths
+- grid spacing
+- margin/padding rhythm
+- visual hierarchy
+
+Examples:
+- heading sizes should scale harmoniously using golden ratio logic
+- image blocks should use elegant editorial aspect ratios
+- content columns should be balanced with 38.2% / 61.8% style distribution where appropriate
+- hero layout should feel mathematically pleasing and visually balanced
+- product cards and category cards should use proportions inspired by the golden ratio
+- whitespace should be intentional and luxurious
+
+The UI should feel subtly “perfectly balanced” because of the ratio, not obviously mathematical.
+
+==================================================
+IMAGE REQUIREMENTS – MINIMUM 20 IMAGES
+==================================================
+The website must include at least 20 high-quality images with precise usage.
+
+You may generate or source elegant placeholder/fashion-brand visuals if real product photos are not provided, but they must feel premium and relevant.
+
+Need at least:
+1. 1 hero banner image
+2. 6 category highlight images (one for each category)
+3. 8 product showcase images
+4. 2 boutique/store lifestyle images
+5. 2 festive/traditional style images
+6. 1 modern western fashion banner image
+
+Total minimum: 20 images
+
+All images must:
+- match women’s fashion branding
+- look premium and clean
+- have consistent aesthetic tone
+- avoid distorted faces or poor quality
+- fit the brand’s Indian women’s fashion context
+- include graceful styling and elegant compositions
+- balance ethnic wear and western wear
+- feel suitable for Kurthi, Chudithar, Saree, Tops, Shirts, and T-Shirts
+
+If using generated placeholders, use refined prompt logic so the images feel like a real boutique campaign:
+- elegant Indian women’s fashion editorial
+- premium boutique catalog style
+- soft natural lighting
+- festive and casual variation
+- rich textile detail
+- graceful poses
+- minimal cluttered background
+- premium fabric feel
+- warm sophisticated tone
+
+Also optimize images:
+- proper lazy loading
+- responsive sizes
+- good cropping
+- consistent border radius style where needed
+- no broken image layouts
+
+==================================================
+ANIMATION REQUIREMENTS
+==================================================
+Use premium animations throughout. Animations should feel cinematic, smooth, and modern.
+
+Animation style:
+- luxurious
+- graceful
+- fluid
+- subtle but rich
+- premium fashion-brand feel
+
+Must include:
+- smooth page load reveal
+- hero text stagger animation
+- image fade-up / parallax / soft zoom
+- category cards hover lift
+- product card hover animation
+- button hover glow or elegant transform
+- scroll-triggered section reveals
+- floating WhatsApp pulse
+- navbar appearance transition on scroll
+- subtle image scale on hover
+- testimonial or brand statement fade transitions if included
+
+Do NOT use:
+- tacky bouncing everywhere
+- excessive spinning
+- flashy neon effects
+- chaotic movement
+
+Preferred motion:
+- framer-motion style premium motion
+- spring-based interactions
+- soft opacity transitions
+- translateY reveals
+- layered depth
+- subtle parallax for hero/banner zones
+
+Add a refined loading experience:
+- brand logo reveal using the provided logo
+- elegant shimmer or fade transition into homepage
+
+==================================================
+SITE STRUCTURE
+==================================================
+Create the following sections/pages.
+
+MAIN LANDING PAGE SECTIONS:
+1. Premium Navbar
+   - existing logo on left
+   - links: Home, Collections, About, Visit Store, Contact
+   - CTA button: WhatsApp Us
+   - sticky / animated on scroll
+
+2. Hero Section
+   - large premium banner
+   - luxury typography
+   - clear message for women’s fashion
+   - highlight Kurthi, Chudithar, Saree, Western Tops, Shirts, T-Shirts
+   - CTA buttons: Explore Collection / WhatsApp Order
+   - elegant image composition
+   - golden-ratio layout
+   - rich animation
+
+3. Brand Statement Section
+   - make She Paradise feel aspirational
+   - premium copy about elegance, confidence, comfort, and style
+   - editorial look with image + text split
+
+4. Collections Section
+   - 6 collection cards:
+     Kurthi
+     Chudithar Set
+     Saree
+     Western Tops
+     Shirts
+     T-Shirts
+   - each with image, short copy, and call to action
+   - premium hover states
+   - balanced grid
+
+5. Featured Products / Highlights
+   - visually rich cards
+   - at least 8 showcase items
+   - can be sample premium fashion highlights if exact product inventory is not given
+   - should look like a real boutique catalog
+
+6. Why Choose She Paradise
+   - premium fabrics
+   - elegant designs
+   - traditional + modern collections
+   - curated women’s fashion
+   - store trust and local presence
+   - beautifully designed icons/cards
+
+7. Boutique / Store Experience Section
+   - emphasize physical store presence
+   - mention location near Thudiyalur RTO
+   - warm and premium retail atmosphere
+   - include boutique/lifestyle imagery
+
+8. Visit Store Section
+   - beautifully formatted address block
+   - embedded map placeholder or map section if possible
+   - directions CTA
+   - WhatsApp CTA
+
+9. Contact Section
+   - phone number
+   - WhatsApp number
+   - click-to-call
+   - click-to-WhatsApp
+   - enquiry form if needed
+   - elegant layout
+
+10. Footer
+   - existing logo
+   - quick links
+   - categories
+   - address
+   - phone
+   - WhatsApp
+   - copyright
+
+OPTIONAL EXTRA SECTIONS:
+- testimonials
+- fashion lookbook strip
+- festive collection banner
+- new arrivals banner
+- Instagram-style gallery strip
+- frequently asked questions
+
+==================================================
+CONTENT TONE
+==================================================
+Write elegant, premium, feminine, clear marketing copy.
+
+Tone should be:
+- classy
+- stylish
+- trustworthy
+- graceful
+- polished
+- warm
+- confident
+
+Do not write cheap ad-style lines.
+Do not overuse emojis.
+Keep text premium and brand-worthy.
+
+==================================================
+COLOR SYSTEM
+==================================================
+Create a luxury feminine palette.
+
+Suggested direction:
+- soft cream / ivory base
+- warm white
+- blush or dusty rose accents
+- muted gold accents
+- elegant charcoal / deep brown / muted plum for text
+- subtle luxury gradients if needed
+
+The site should feel premium and soft, not loud.
+
+Use color intelligently:
+- strong readability
+- high contrast for important CTAs
+- luxury fashion tone
+- elegant section separation
+
+==================================================
+TYPOGRAPHY
+==================================================
+Typography must feel editorial and premium.
+
+Use:
+- one elegant serif for major headings
+- one clean modern sans-serif for body and UI text
+
+Typography hierarchy should follow golden-ratio-inspired scaling.
+Headings should feel luxurious and spacious.
+Body text should be highly readable.
+
+==================================================
+TECHNICAL REQUIREMENTS
+==================================================
+For Replit:
+- build a complete project with proper folder structure
+- ensure it runs without missing dependencies
+- include all components and styles
+- keep code modular and clean
+- use reusable components
+- optimize for responsiveness
+- maintain good performance
+- support image lazy loading and modern frontend best practices
+
+Preferred stack:
+- React or Next.js if suitable in Replit
+- Tailwind CSS for styling
+- Framer Motion for animation if available
+- component-based architecture
+
+If using Next.js:
+- use App Router
+- organize sections as reusable components
+- optimize image handling properly
+
+If using React:
+- create reusable section components
+- maintain clean file separation
+- ensure smooth routing if multi-page
+
+==================================================
+UX REQUIREMENTS
+==================================================
+- mobile-first polish
+- premium scrolling feel
+- no overlap or broken spacing
+- smooth section transitions
+- clickable CTAs throughout
+- easy navigation
+- strong WhatsApp conversion focus
+- elegant hover states
+- proper alignment everywhere
+- luxurious whitespace
+
+==================================================
+SEO / LOCAL BRAND REQUIREMENTS
+==================================================
+Include proper metadata for:
+- She Paradise women clothing store
+- women’s fashion in Coimbatore
+- Kurthi store in Coimbatore
+- Chudithar sets in Coimbatore
+- Saree boutique in Coimbatore
+- Western tops and women’s shirts in Coimbatore
+- Thudiyalur women clothing store
+
+Include location naturally in content:
+- Thudiyalur
+- Coimbatore
+- Near Thudiyalur RTO
+
+==================================================
+FINAL OUTPUT EXPECTATION
+==================================================
+Deliver:
+1. complete working frontend
+2. refined premium UI
+3. golden-ratio-based composition
+4. minimum 20 relevant high-quality images integrated into the design
+5. existing logo used properly
+6. floating WhatsApp button
+7. polished animations
+8. responsive layout
+9. elegant copywriting
+10. clean, maintainable code
+
+Before finishing, verify:
+- at least 20 images are present
+- golden ratio principles are visibly applied
+- logo is integrated properly
+- WhatsApp floating button works
+- address is displayed correctly
+- site feels premium, feminine, and luxurious
+- animations are smooth and not excessive
+- mobile responsiveness is excellent
+
+The final result should look like a real premium boutique brand website, not a prototype.

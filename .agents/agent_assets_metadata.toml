@@ -1,0 +1,128 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "JQP749Pt5O6Q_BNm6zmYi"
+uri = "file://artifacts/she-paradise/src/assets/images/hero.png"
+type = "image"
+title = "hero banner elegant Indian woman"
+
+[[generated]]
+id = "-gWuK6AMUK1qWN-mdra5G"
+uri = "file://artifacts/she-paradise/src/assets/images/kurthi.png"
+type = "image"
+title = "Kurthi category image"
+
+[[generated]]
+id = "YCi25RRStuasnAj4dErqb"
+uri = "file://artifacts/she-paradise/src/assets/images/chudithar.png"
+type = "image"
+title = "Chudithar Set category image"
+
+[[generated]]
+id = "Ru-wHEFN0oCYq2O3ONzaH"
+uri = "file://artifacts/she-paradise/src/assets/images/saree.png"
+type = "image"
+title = "Saree category image"
+
+[[generated]]
+id = "KZM49q6vseV4LDhfyjXlG"
+uri = "file://artifacts/she-paradise/src/assets/images/western.png"
+type = "image"
+title = "Western Tops category image"
+
+[[generated]]
+id = "n-d5F3YVqN5Da69wnXxbg"
+uri = "file://artifacts/she-paradise/src/assets/images/shirts.png"
+type = "image"
+title = "Shirts category image"
+
+[[generated]]
+id = "TiadDiKQYwpmSEhCYn0u6"
+uri = "file://artifacts/she-paradise/src/assets/images/tshirts.png"
+type = "image"
+title = "T-Shirts category image"
+
+[[generated]]
+id = "JC6Ij6qeGU-h1T5GjJ3LQ"
+uri = "file://artifacts/she-paradise/src/assets/images/showcase-1.png"
+type = "image"
+title = "Product showcase dress"
+
+[[generated]]
+id = "fGdIlIgAjI9tl1lAr3LLH"
+uri = "file://artifacts/she-paradise/src/assets/images/showcase-2.png"
+type = "image"
+title = "Product showcase detail"
+
+[[generated]]
+id = "xlr5uS7hqDE_xt2YoYuLR"
+uri = "file://artifacts/she-paradise/src/assets/images/showcase-3.png"
+type = "image"
+title = "Product showcase traditional"
+
+[[generated]]
+id = "-yvYCANk7lcsBZpFdeNPG"
+uri = "file://artifacts/she-paradise/src/assets/images/showcase-4.png"
+type = "image"
+title = "Product showcase detail"
+
+[[generated]]
+id = "v2_vRD7YXhu_okY-7FHcg"
+uri = "file://artifacts/she-paradise/src/assets/images/showcase-5.png"
+type = "image"
+title = "Product showcase flatlay"
+
+[[generated]]
+id = "wGzvdzXpIAD_GVb8rl_gb"
+uri = "file://artifacts/she-paradise/src/assets/images/showcase-6.png"
+type = "image"
+title = "Product showcase western"
+
+[[generated]]
+id = "0pNidmMshkYGu410SGohV"
+uri = "file://artifacts/she-paradise/src/assets/images/showcase-7.png"
+type = "image"
+title = "Product showcase traditional"
+
+[[generated]]
+id = "yhix4OaWb-V9CUZ8KEH_0"
+uri = "file://artifacts/she-paradise/src/assets/images/showcase-8.png"
+type = "image"
+title = "Product showcase party"
+
+[[generated]]
+id = "wa4rLWil0nFL9f9rsi92R"
+uri = "file://artifacts/she-paradise/src/assets/images/boutique-1.png"
+type = "image"
+title = "Boutique interior 1"
+
+[[generated]]
+id = "VXZWB8QNE9ASzVVVab2Tb"
+uri = "file://artifacts/she-paradise/src/assets/images/boutique-2.png"
+type = "image"
+title = "Boutique interior 2"
+
+[[generated]]
+id = "mHikT4suWhcQyEWf8aJ8h"
+uri = "file://artifacts/she-paradise/src/assets/images/festive-1.png"
+type = "image"
+title = "Festive style 1"
+
+[[generated]]
+id = "KYC97PWYOsUkU_C3N_fNM"
+uri = "file://artifacts/she-paradise/src/assets/images/festive-2.png"
+type = "image"
+title = "Festive style 2"
+
+[[generated]]
+id = "RK1odQ5C9QFoy9i1Trrya"
+uri = "file://artifacts/she-paradise/src/assets/images/western-banner.png"
+type = "image"
+title = "Modern western banner"
+
+[[generated]]
+id = "K70KvJdpCTAHy2BFebe9C"
+uri = "file://artifacts/she-paradise/src/assets/images/store-ambiance.png"
+type = "image"
+title = "Store ambiance logo area"
