@@ -2,8 +2,8 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "installCommand": "pnpm install --no-frozen-lockfile",
-  "buildCommand": "pnpm --filter @workspace/she-paradise run build && mkdir -p public && cp -R artifacts/she-paradise/dist/public/* public/",
-  "outputDirectory": "public",
+  "buildCommand": "pnpm --filter @workspace/she-paradise run build || pnpm run build && rm -rf .vercel_static && mkdir -p .vercel_static && if [ -d artifacts/she-paradise/dist/public ]; then cp -R artifacts/she-paradise/dist/public/* .vercel_static/; fi && if [ -d dist/public ]; then cp -R dist/public/* .vercel_static/; fi",
+  "outputDirectory": ".vercel_static",
   "rewrites": [
     {
       "source": "/(.*)",
