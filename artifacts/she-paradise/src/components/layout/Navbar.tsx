@@ -47,16 +47,12 @@ export function Navbar() {
             href="/"
             className="flex shrink-0 items-center group"
           >
-            {solidHeader ? (
-              <BrandLogo
-                size="md"
-                className="transition-all duration-300 group-hover:opacity-90"
-              />
-            ) : (
-              <span className="inline-flex items-center rounded-sm bg-black/35 px-2 py-1 backdrop-blur-sm transition-all duration-300 group-hover:bg-black/50">
-                <BrandLogo size="md" />
-              </span>
-            )}
+            <BrandLogo
+              size="md"
+              className={`transition-all duration-300 group-hover:opacity-90 ${
+                solidHeader ? "" : "drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]"
+              }`}
+            />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
