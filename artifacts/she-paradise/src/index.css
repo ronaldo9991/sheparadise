@@ -41,6 +41,12 @@
   --color-destructive-foreground: hsl(var(--destructive-foreground));
   --color-destructive-border: var(--destructive-border);
 
+  --color-inverted-bg: hsl(var(--inverted-bg));
+  --color-inverted-fg: hsl(var(--inverted-fg));
+  --color-inverted-muted: hsl(var(--inverted-muted));
+  --color-inverted-accent: hsl(var(--inverted-accent));
+  --color-inverted-secondary: hsl(var(--inverted-secondary));
+
   --font-sans: var(--app-font-sans);
   --font-serif: var(--app-font-serif);
   --font-mono: var(--app-font-mono);
@@ -51,8 +57,15 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-/* LIGHT MODE ONLY - Luxury Boutique Palette */
+/* Luxury boutique palette — light + shared tokens */
 :root {
+  /* Inverted surfaces (footer, featured strip): stable in both themes */
+  --inverted-bg: 20 14% 20%;
+  --inverted-fg: 40 33% 98%;
+  --inverted-muted: 40 12% 72%;
+  --inverted-accent: 0 0% 100%;
+  --inverted-secondary: 45 40% 65%;
+
   /* Ivory / Cream Base */
   --background: 40 33% 98%;
   /* Deep Charcoal / Brown text */
@@ -119,6 +132,73 @@
   
   --tracking-normal: 0em;
   --spacing: 0.25rem;
+
+  color-scheme: light;
+}
+
+/* Dark mode — warm charcoal, rose & muted gold */
+.dark {
+  color-scheme: dark;
+
+  --inverted-bg: 25 12% 13%;
+  --inverted-fg: 40 26% 95%;
+  --inverted-muted: 40 10% 58%;
+  --inverted-accent: 350 40% 78%;
+  --inverted-secondary: 45 32% 55%;
+
+  --background: 22 16% 7%;
+  --foreground: 40 22% 93%;
+
+  --border: 25 10% 18%;
+  --input: 25 10% 18%;
+  --ring: 350 36% 55%;
+
+  --card: 22 14% 10%;
+  --card-foreground: 40 22% 93%;
+  --card-border: 25 10% 18%;
+
+  --popover: 22 14% 10%;
+  --popover-foreground: 40 22% 93%;
+  --popover-border: 25 10% 18%;
+
+  --primary: 350 36% 60%;
+  --primary-foreground: 22 18% 8%;
+
+  --secondary: 45 34% 52%;
+  --secondary-foreground: 22 18% 10%;
+
+  --muted: 25 10% 14%;
+  --muted-foreground: 40 12% 64%;
+
+  --accent: 25 10% 16%;
+  --accent-foreground: 40 22% 93%;
+
+  --destructive: 0 62% 48%;
+  --destructive-foreground: 0 0% 98%;
+
+  --sidebar: 22 16% 7%;
+  --sidebar-foreground: 40 22% 93%;
+  --sidebar-border: 25 10% 18%;
+  --sidebar-primary: 350 36% 60%;
+  --sidebar-primary-foreground: 22 18% 8%;
+  --sidebar-accent: 25 10% 16%;
+  --sidebar-accent-foreground: 40 22% 93%;
+  --sidebar-ring: 350 36% 55%;
+
+  --chart-1: 350 36% 60%;
+  --chart-2: 45 34% 52%;
+  --chart-3: 40 22% 93%;
+  --chart-4: 25 10% 16%;
+  --chart-5: 40 12% 64%;
+
+  --shadow-2xs: 0px 2px 0px 0px rgba(0, 0, 0, 0.15);
+  --shadow-xs: 0px 2px 0px 0px rgba(0, 0, 0, 0.2);
+  --shadow-sm: 0px 2px 0px 0px rgba(0, 0, 0, 0.2), 0px 1px 2px -1px rgba(0, 0, 0, 0.25);
+  --shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.22), 0px 1px 2px -1px rgba(0, 0, 0, 0.28);
+  --shadow-md: 0px 4px 6px -1px rgba(0, 0, 0, 0.3), 0px 2px 4px -2px rgba(0, 0, 0, 0.22);
+  --shadow-lg: 0px 10px 15px -3px rgba(0, 0, 0, 0.35), 0px 4px 6px -4px rgba(0, 0, 0, 0.25);
+  --shadow-xl: 0px 20px 25px -5px rgba(0, 0, 0, 0.4), 0px 8px 10px -6px rgba(0, 0, 0, 0.28);
+  --shadow-2xl: 0px 25px 50px -12px rgba(0, 0, 0, 0.45);
 }
 
 @layer base {
@@ -139,8 +219,18 @@
   background: linear-gradient(135deg, hsl(40 33% 98%) 0%, hsl(30 20% 94%) 100%);
 }
 
+.dark .luxury-gradient {
+  background: linear-gradient(135deg, hsl(22 16% 9%) 0%, hsl(25 12% 12%) 100%);
+}
+
 .luxury-text-gradient {
   background: linear-gradient(135deg, hsl(20 14% 20%) 0%, hsl(20 10% 45%) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dark .luxury-text-gradient {
+  background: linear-gradient(135deg, hsl(40 24% 92%) 0%, hsl(40 12% 68%) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
