@@ -3,7 +3,7 @@
   "framework": "vite",
   "installCommand": "pnpm install --no-frozen-lockfile",
   "buildCommand": "pnpm -w run build:vercel",
-  "outputDirectory": "artifacts/she-paradise/dist/public",
+  "outputDirectory": "public",
   "rewrites": [
     {
       "source": "/(.*)",
