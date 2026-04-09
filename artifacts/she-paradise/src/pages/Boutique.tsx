@@ -209,7 +209,7 @@ export default function Boutique() {
                   href="https://wa.me/919600683219"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-white text-foreground px-8 py-4 uppercase tracking-widest text-xs hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                  className="inline-block bg-white text-[#2b1f18] font-semibold px-8 py-4 uppercase tracking-[0.18em] text-xs border border-white/80 hover:bg-primary hover:text-white hover:border-primary transition-all duration-300"
                 >
                   Book a Styling Session
                 </a>
