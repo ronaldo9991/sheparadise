@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "installCommand": "pnpm install --no-frozen-lockfile",
-  "buildCommand": "pnpm -w run build:vercel",
+  "buildCommand": "pnpm --filter @workspace/she-paradise run build && mkdir -p public && cp -R artifacts/she-paradise/dist/public/* public/",
   "outputDirectory": "public",
   "rewrites": [
     {
