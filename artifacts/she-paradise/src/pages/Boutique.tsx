@@ -55,9 +55,9 @@ export default function Boutique() {
         <Navbar />
         <WhatsAppButton />
 
-        <main className="pt-28 pb-0">
+        <main className="pt-20 md:pt-28 pb-0">
           {/* Page Header */}
-          <div className="container mx-auto px-4 sm:px-6 md:px-12 mb-20">
+          <div className="container mx-auto px-4 sm:px-6 md:px-12 mb-12 md:mb-20">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -67,10 +67,10 @@ export default function Boutique() {
               <span className="text-primary tracking-widest uppercase text-xs mb-4 block">
                 The Experience
               </span>
-              <h1 className="font-serif text-4xl md:text-6xl text-foreground mb-6">
+              <h1 className="font-serif text-3xl sm:text-4xl md:text-6xl text-foreground mb-4 md:mb-6">
                 The Boutique
               </h1>
-              <p className="text-muted-foreground text-lg font-light leading-relaxed">
+              <p className="text-muted-foreground text-base md:text-lg font-light leading-relaxed">
                 She Paradise is more than a clothing store. It's a space where
                 fashion meets warmth, where every visit feels like stepping into
                 a world curated just for you.
@@ -79,9 +79,9 @@ export default function Boutique() {
           </div>
 
           {/* Store Ambiance Section */}
-          <section className="bg-background overflow-hidden mb-24">
+          <section className="bg-background overflow-hidden mb-16 md:mb-24">
             <div className="container mx-auto px-4 sm:px-6 md:px-12">
-              <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+              <div className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 lg:gap-20">
                 <motion.div
                   initial={{ opacity: 0, x: -50 }}
                   whileInView={{ opacity: 1, x: 0 }}
@@ -110,7 +110,7 @@ export default function Boutique() {
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8 }}
                   viewport={{ once: true }}
-                  className="w-full lg:w-1/2 flex flex-col items-start pt-12 md:pt-0"
+                  className="w-full lg:w-1/2 flex flex-col items-start pt-2 md:pt-12 lg:pt-0"
                 >
                   <span className="text-primary tracking-widest uppercase text-xs mb-4">
                     Step Inside
@@ -143,16 +143,16 @@ export default function Boutique() {
           </section>
 
           {/* Why Choose Us */}
-          <section className="py-24 bg-muted/40">
+          <section className="py-14 md:py-24 bg-muted/40">
             <div className="container mx-auto px-4 sm:px-6 md:px-12 max-w-6xl">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
                 viewport={{ once: true }}
-                className="text-center mb-16"
+                className="text-center mb-10 md:mb-16"
               >
-                <h2 className="font-serif text-3xl md:text-4xl text-foreground">
+                <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl text-foreground">
                   The She Paradise Promise
                 </h2>
               </motion.div>
@@ -188,7 +188,7 @@ export default function Boutique() {
           </section>
 
           {/* Full-width Ambiance Image */}
-          <section className="relative h-[50vh] md:h-[60vh] overflow-hidden">
+          <section className="relative h-[45vh] sm:h-[50vh] md:h-[60vh] overflow-hidden">
             <img
               src={images.storeAmbiance}
               alt="Store ambiance"
@@ -202,7 +202,7 @@ export default function Boutique() {
                 viewport={{ once: true }}
                 className="text-center px-4"
               >
-                <h2 className="font-serif text-3xl md:text-5xl text-white mb-6 drop-shadow-lg">
+                <h2 className="font-serif text-2xl sm:text-3xl md:text-5xl text-white mb-5 md:mb-6 drop-shadow-lg">
                   Fashion is an Expression of You
                 </h2>
                 <a

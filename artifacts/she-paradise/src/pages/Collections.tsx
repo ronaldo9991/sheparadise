@@ -35,22 +35,22 @@ export default function Collections() {
         <Navbar />
         <WhatsAppButton />
 
-        <main className="pt-28 pb-24">
+        <main className="pt-20 md:pt-28 pb-16 md:pb-24">
           <div className="container mx-auto px-4 sm:px-6 md:px-12">
             {/* Page Header */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-center mb-16"
+              className="text-center mb-10 md:mb-16"
             >
-              <span className="text-primary tracking-widest uppercase text-xs mb-4 block">
+              <span className="text-primary tracking-widest uppercase text-xs mb-3 md:mb-4 block">
                 Explore
               </span>
-              <h1 className="font-serif text-4xl md:text-6xl text-foreground mb-6">
+              <h1 className="font-serif text-3xl sm:text-4xl md:text-6xl text-foreground mb-4 md:mb-6">
                 Our Collections
               </h1>
-              <p className="text-muted-foreground text-lg font-light max-w-2xl mx-auto">
+              <p className="text-muted-foreground text-base md:text-lg font-light max-w-2xl mx-auto">
                 From timeless sarees to modern western wear, discover a curated
                 wardrobe crafted for the contemporary Indian woman.
               </p>
@@ -75,8 +75,8 @@ export default function Collections() {
                   </button>
 
                   {/* Collection title */}
-                  <div className="mb-10">
-                    <h2 className="font-serif text-3xl md:text-5xl text-foreground mb-3">
+                  <div className="mb-8 md:mb-10">
+                    <h2 className="font-serif text-2xl sm:text-3xl md:text-5xl text-foreground mb-2 md:mb-3">
                       {selectedCollection.name}
                     </h2>
                     <p className="text-muted-foreground text-lg font-light">

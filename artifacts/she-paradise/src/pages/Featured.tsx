@@ -63,34 +63,34 @@ export default function Featured() {
         <Navbar />
         <WhatsAppButton />
 
-        <main className="pt-28 pb-24">
+        <main className="pt-20 md:pt-28 pb-16 md:pb-24">
           <div className="container mx-auto px-4 sm:px-6 md:px-12">
             {/* Header */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-center mb-16"
+              className="text-center mb-10 md:mb-16"
             >
-              <span className="text-primary tracking-widest uppercase text-xs mb-4 block">
+              <span className="text-primary tracking-widest uppercase text-xs mb-3 md:mb-4 block">
                 New Arrivals
               </span>
-              <h1 className="font-serif text-4xl md:text-6xl text-foreground mb-6">
+              <h1 className="font-serif text-3xl sm:text-4xl md:text-6xl text-foreground mb-4 md:mb-6">
                 Featured Looks
               </h1>
-              <p className="text-muted-foreground text-lg font-light max-w-2xl mx-auto">
+              <p className="text-muted-foreground text-base md:text-lg font-light max-w-2xl mx-auto">
                 Hand-selected pieces from our latest collection, curated to
                 inspire your next statement look.
               </p>
             </motion.div>
 
             {/* Category Filter */}
-            <div className="flex flex-wrap justify-center gap-3 mb-14">
+            <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mb-10 md:mb-14">
               {categories.map((cat) => (
                 <button
                   key={cat}
                   onClick={() => setActiveCategory(cat)}
-                  className={`px-5 py-2 text-xs uppercase tracking-widest border transition-all duration-300 ${
+                  className={`px-4 sm:px-5 py-2 text-xs uppercase tracking-wider sm:tracking-widest border transition-all duration-300 ${
                     activeCategory === cat
                       ? "bg-foreground text-background border-foreground"
                       : "bg-transparent text-muted-foreground border-border hover:border-foreground hover:text-foreground"
@@ -104,7 +104,7 @@ export default function Featured() {
             {/* Masonry-style Grid */}
             <motion.div
               layout
-              className="columns-1 sm:columns-2 lg:columns-3 gap-5 space-y-5"
+              className="columns-1 sm:columns-2 lg:columns-3 gap-4 sm:gap-5 space-y-4 sm:space-y-5"
             >
               <AnimatePresence mode="popLayout">
                 {filtered.map((item, i) => (

@@ -31,28 +31,28 @@ export default function Visit() {
         <Navbar />
         <WhatsAppButton />
 
-        <main className="pt-28 pb-24">
+        <main className="pt-20 md:pt-28 pb-16 md:pb-24">
           <div className="container mx-auto px-4 sm:px-6 md:px-12">
             {/* Header */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-center mb-20"
+              className="text-center mb-10 md:mb-20"
             >
-              <span className="text-primary tracking-widest uppercase text-xs mb-4 block">
+              <span className="text-primary tracking-widest uppercase text-xs mb-3 md:mb-4 block">
                 Find Us
               </span>
-              <h1 className="font-serif text-4xl md:text-6xl text-foreground mb-6">
+              <h1 className="font-serif text-3xl sm:text-4xl md:text-6xl text-foreground mb-4 md:mb-6">
                 Visit Us
               </h1>
-              <p className="text-muted-foreground text-lg font-light max-w-2xl mx-auto">
+              <p className="text-muted-foreground text-base md:text-lg font-light max-w-2xl mx-auto">
                 We'd love to welcome you to our boutique. Come discover our
                 collections in person and experience the She Paradise difference.
               </p>
             </motion.div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-start">
               {/* Left: Contact Info Cards */}
               <motion.div
                 variants={staggerContainer}
@@ -64,9 +64,9 @@ export default function Visit() {
                 {/* Address */}
                 <motion.div
                   variants={fadeInUp}
-                  className="border border-border p-8 flex gap-5"
+                  className="border border-border p-5 sm:p-8 flex gap-4 sm:gap-5"
                 >
-                  <div className="w-12 h-12 shrink-0 rounded-full bg-muted flex items-center justify-center text-primary">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 shrink-0 rounded-full bg-muted flex items-center justify-center text-primary">
                     <MapPin className="h-5 w-5" strokeWidth={1.5} />
                   </div>
                   <div>
@@ -97,9 +97,9 @@ export default function Visit() {
                 {/* Phone */}
                 <motion.div
                   variants={fadeInUp}
-                  className="border border-border p-8 flex gap-5"
+                  className="border border-border p-5 sm:p-8 flex gap-4 sm:gap-5"
                 >
-                  <div className="w-12 h-12 shrink-0 rounded-full bg-muted flex items-center justify-center text-primary">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 shrink-0 rounded-full bg-muted flex items-center justify-center text-primary">
                     <Phone className="h-5 w-5" strokeWidth={1.5} />
                   </div>
                   <div>
@@ -118,9 +118,9 @@ export default function Visit() {
                 {/* WhatsApp */}
                 <motion.div
                   variants={fadeInUp}
-                  className="border border-border p-8 flex gap-5"
+                  className="border border-border p-5 sm:p-8 flex gap-4 sm:gap-5"
                 >
-                  <div className="w-12 h-12 shrink-0 rounded-full bg-muted flex items-center justify-center text-primary">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 shrink-0 rounded-full bg-muted flex items-center justify-center text-primary">
                     <MessageCircle className="h-5 w-5" strokeWidth={1.5} />
                   </div>
                   <div>
@@ -145,9 +145,9 @@ export default function Visit() {
                 {/* Hours */}
                 <motion.div
                   variants={fadeInUp}
-                  className="border border-border p-8 flex gap-5"
+                  className="border border-border p-5 sm:p-8 flex gap-4 sm:gap-5"
                 >
-                  <div className="w-12 h-12 shrink-0 rounded-full bg-muted flex items-center justify-center text-primary">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 shrink-0 rounded-full bg-muted flex items-center justify-center text-primary">
                     <Clock className="h-5 w-5" strokeWidth={1.5} />
                   </div>
                   <div>

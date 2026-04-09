@@ -20,10 +20,10 @@ export function BrandLogo({
       decoding="async"
       className={cn(
         "block select-none object-contain",
-        size === "sm" && "h-8 w-auto",
-        size === "md" && "h-10 w-auto",
-        size === "lg" && "h-14 w-auto",
-        size === "xl" && "h-20 w-auto",
+        size === "sm" && "h-8 w-auto max-w-[120px]",
+        size === "md" && "h-10 w-auto max-w-[160px]",
+        size === "lg" && "h-14 w-auto max-w-[200px]",
+        size === "xl" && "h-20 w-auto max-w-[280px]",
         className,
       )}
     />

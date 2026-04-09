@@ -48,35 +48,35 @@ export default function Home() {
 
         <main>
           {/* HERO */}
-          <section className="relative h-[90svh] md:h-[100svh] w-full overflow-hidden">
+          <section className="relative h-dvh min-h-[600px] w-full overflow-hidden">
             <div className="absolute inset-0">
               <img
                 src={images.hero}
                 alt="She Paradise – Premium Women's Fashion Boutique, Coimbatore"
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-cover object-center md:object-top"
               />
               {/* gradient: dark at top (for nav) + dark at bottom (for text) */}
-              <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/20 to-black/65" />
+              <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/20 to-black/70" />
             </div>
 
-            <div className="relative h-full flex flex-col items-end justify-end pb-20 md:pb-28 px-6 md:px-16 lg:px-24">
+            <div className="relative h-full flex flex-col items-center md:items-end justify-end pb-14 sm:pb-20 md:pb-28 px-4 sm:px-6 md:px-16 lg:px-24">
               <motion.div
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.3 }}
-                className="max-w-2xl text-right"
+                className="w-full max-w-2xl text-center md:text-right"
               >
-                <p className="text-white/70 tracking-[0.3em] uppercase text-xs md:text-sm mb-4 font-light">
+                <p className="text-white/70 tracking-[0.25em] uppercase text-xs mb-4 font-light">
                   Premium Boutique &bull; Coimbatore
                 </p>
-                <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-white font-medium leading-[1.05] mb-8 drop-shadow-lg">
+                <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-white font-medium leading-[1.05] mb-6 md:mb-8 drop-shadow-lg">
                   Where Elegance<br />
                   <span className="italic font-light text-rose-200/90">Finds You</span>
                 </h1>
-                <div className="flex flex-wrap gap-3 justify-end">
+                <div className="flex flex-col sm:flex-row flex-wrap gap-3 justify-center md:justify-end">
                   <Link
                     href="/collections"
-                    className="inline-block bg-white text-[#2b1f18] px-8 py-3.5 uppercase tracking-widest text-xs font-semibold hover:bg-primary hover:text-white transition-all duration-500 shadow-xl"
+                    className="w-full sm:w-auto inline-block bg-white text-[#2b1f18] px-6 sm:px-8 py-3.5 uppercase tracking-wider sm:tracking-widest text-xs font-semibold hover:bg-primary hover:text-white transition-all duration-500 shadow-xl text-center"
                   >
                     Discover the Collection
                   </Link>
@@ -84,7 +84,7 @@ export default function Home() {
                     href="https://wa.me/919600683219"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block border border-white/70 text-white px-8 py-3.5 uppercase tracking-widest text-xs font-medium hover:bg-white hover:text-foreground transition-all duration-500"
+                    className="w-full sm:w-auto inline-block border border-white/70 text-white px-6 sm:px-8 py-3.5 uppercase tracking-wider sm:tracking-widest text-xs font-medium hover:bg-white hover:text-foreground transition-all duration-500 text-center"
                   >
                     WhatsApp Us
                   </a>
@@ -94,7 +94,7 @@ export default function Home() {
           </section>
 
           {/* BRAND STATEMENT */}
-          <section className="py-24 md:py-32 px-6 bg-background">
+          <section className="py-16 md:py-24 lg:py-32 px-4 sm:px-6 bg-background">
             <div className="container mx-auto max-w-4xl text-center">
               <motion.div
                 variants={fadeInUp}
@@ -103,12 +103,12 @@ export default function Home() {
                 viewport={{ once: true, margin: "-100px" }}
                 className="flex flex-col items-center"
               >
-                <div className="w-12 h-[1px] bg-primary mb-12" />
-                <h2 className="font-serif text-3xl md:text-5xl text-foreground leading-snug mb-8 font-light">
+                <div className="w-12 h-[1px] bg-primary mb-8 md:mb-12" />
+                <h2 className="font-serif text-2xl sm:text-3xl md:text-5xl text-foreground leading-snug mb-6 md:mb-8 font-light">
                   Curating the wardrobe of the modern Indian woman, balancing
                   timeless tradition with contemporary grace.
                 </h2>
-                <p className="text-muted-foreground text-lg md:text-xl font-light leading-relaxed max-w-2xl">
+                <p className="text-muted-foreground text-base md:text-lg lg:text-xl font-light leading-relaxed max-w-2xl">
                   She Paradise isn't just a store—it's an experience. We bring the
                   luxury and refinement of top-tier boutiques to Coimbatore, offering
                   a carefully selected range of clothing that celebrates femininity
@@ -119,14 +119,14 @@ export default function Home() {
           </section>
 
           {/* COLLECTION PREVIEW */}
-          <section className="py-24 bg-muted/30">
+          <section className="py-16 md:py-24 bg-muted/30">
             <div className="container mx-auto px-4 sm:px-6 md:px-12">
-              <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+              <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 md:mb-16 gap-4">
                 <div>
-                  <span className="text-primary tracking-widest uppercase text-xs mb-4 block">
+                  <span className="text-primary tracking-widest uppercase text-xs mb-3 md:mb-4 block">
                     Our Categories
                   </span>
-                  <h2 className="font-serif text-4xl md:text-5xl text-foreground">
+                  <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground">
                     The Collections
                   </h2>
                 </div>
@@ -173,14 +173,14 @@ export default function Home() {
           </section>
 
           {/* FEATURED PREVIEW */}
-          <section className="py-24 bg-inverted-bg text-inverted-fg">
+          <section className="py-16 md:py-24 bg-inverted-bg text-inverted-fg">
             <div className="container mx-auto px-4 sm:px-6 md:px-12">
-              <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+              <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 md:mb-16 gap-4">
                 <div>
-                  <span className="text-inverted-secondary tracking-widest uppercase text-xs mb-4 block">
+                  <span className="text-inverted-secondary tracking-widest uppercase text-xs mb-3 md:mb-4 block">
                     New Arrivals
                   </span>
-                  <h2 className="font-serif text-4xl md:text-5xl text-inverted-fg">
+                  <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-inverted-fg">
                     Curated Looks
                   </h2>
                 </div>
@@ -215,9 +215,9 @@ export default function Home() {
           </section>
 
           {/* WHY CHOOSE US */}
-          <section className="py-24 md:py-32 bg-muted/50 text-center">
-            <div className="container mx-auto px-6 max-w-5xl">
-              <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-16">
+          <section className="py-16 md:py-24 lg:py-32 bg-muted/50 text-center">
+            <div className="container mx-auto px-4 sm:px-6 max-w-5xl">
+              <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl text-foreground mb-10 md:mb-16">
                 The She Paradise Promise
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -261,14 +261,14 @@ export default function Home() {
           </section>
 
           {/* VISIT PREVIEW */}
-          <section className="relative py-32 bg-background">
+          <section className="relative py-16 md:py-32 bg-background">
             <div className="absolute inset-0 md:w-1/2">
               <img
                 src={images.storeAmbiance}
                 alt="Store Ambiance"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-background/80 md:bg-transparent md:bg-gradient-to-r md:from-transparent md:to-background" />
+              <div className="absolute inset-0 bg-background/85 md:bg-transparent md:bg-gradient-to-r md:from-transparent md:to-background" />
             </div>
 
             <div className="container mx-auto px-4 sm:px-6 md:px-12 relative">
@@ -278,9 +278,9 @@ export default function Home() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8 }}
                   viewport={{ once: true }}
-                  className="w-full md:w-1/2 lg:w-5/12 bg-background/95 backdrop-blur md:bg-background p-8 md:p-16 border border-border shadow-xl"
+                  className="w-full md:w-1/2 lg:w-5/12 bg-background/95 backdrop-blur md:bg-background p-6 sm:p-8 md:p-16 border border-border shadow-xl"
                 >
-                  <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-8">
+                  <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl text-foreground mb-6 md:mb-8">
                     Visit Our Store
                   </h2>
                   <div className="space-y-6 text-muted-foreground font-light">

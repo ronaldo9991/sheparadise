@@ -3,11 +3,11 @@ import { BrandLogo } from "@/components/brand/BrandLogo";
 
 export function Footer() {
   return (
-    <footer className="bg-inverted-bg text-inverted-fg py-16 md:py-24">
+    <footer className="bg-inverted-bg text-inverted-fg py-12 md:py-24">
       <div className="container mx-auto px-4 sm:px-6 md:px-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-12 mb-16">
-          <div className="flex flex-col gap-5 md:col-span-1">
-            <BrandLogo size="lg" />
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-10 md:mb-16">
+          <div className="flex flex-col gap-4 col-span-2 md:col-span-1">
+            <BrandLogo size="md" className="sm:!h-14 sm:!max-w-[200px]" />
             <p className="text-inverted-muted text-sm font-light leading-relaxed max-w-xs">
               An aspirational women's fashion destination in Coimbatore. Discover elegance, femininity, and the joy of wearing beautiful clothes.
             </p>
@@ -45,7 +45,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-inverted-fg/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-inverted-muted font-light">
+        <div className="pt-6 md:pt-8 border-t border-inverted-fg/10 flex flex-col md:flex-row items-center justify-between gap-3 md:gap-4 text-xs text-inverted-muted font-light">
           <p>&copy; {new Date().getFullYear()} She Paradise. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <span>Premium Boutique</span>
