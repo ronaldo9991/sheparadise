@@ -62,6 +62,16 @@ Build only the She Paradise app:
 pnpm --filter @workspace/she-paradise run build
 ```
 
+## Deploy (Vercel)
+
+This repository is configured for Vercel via `vercel.json`.
+
+- Install command: `pnpm install --no-frozen-lockfile`
+- Build command: `pnpm run build:vercel`
+- Output directory: `artifacts/she-paradise/dist`
+
+SPA routes are handled with a rewrite to `index.html`, so paths like `/collections`, `/featured`, `/boutique`, and `/visit` work on direct refresh.
+
 Build entire workspace:
 
 ```bash
